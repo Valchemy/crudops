@@ -7,6 +7,14 @@
       "email": "ola@example.com",
       "created": "2025-09-01T10:30:00",
       "updated": "2025-09-10T14:20:00"
+    },
+    {
+      "id": 2,
+      "userName": "Chengcheng T",
+      "password": "1234567haha",
+      "email": "cc@example.com",
+      "created": "2025-09-01T10:30:00",
+      "updated": "2025-09-10T14:20:00"
     }
   ],
   "rooms": [
@@ -20,7 +28,8 @@
       "pricePrNight": 1200,
       "description": "Family-run Bed & Breakfast, surrounded by nature but within walking distance of the town center. Eco-friendly, great for couples or friends, and perfect base for all outdoor sports and visits to the nearby Arte Sella or the lakes of Levico and Caldonazzo. Bicycle rental is available in the nearby village of Borgo Valsugana.",
       "hostName": "Sara",
-      "hostBio": "Hi, I am Sara. I live upstairs and love baking sourdough. I love hosting travelers and sharing my favorite local spots. Breakfast is served in the garden room from 8-10am.",
+      "hostAvatar": "http://localhost:3000/avatars/1.svg",
+      "hostBio": "Hi, I am Sara. I live on the other side of the property and love baking sourdough! I love hosting travelers and sharing my favorite local spots. Breakfast is served in the garden room from 8-10am.",
       "img": [
         "http://localhost:3000/room-photos/room-1/1.jpeg",
         "http://localhost:3000/room-photos/room-1/2.jpeg",
@@ -40,16 +49,36 @@
         {
           "id": 1,
           "username": "Mark T.",
+          "userAvatar": "http://localhost:3000/avatars/2.svg",
           "date": "Jan 2026",
           "rating": 5,
           "comment": "The eggs benedict were life-changing! Sara is such a warm host. The room was spotless and exactly like the photos.",
+          "created": "2026-01-15T10:00:00",
+          "updated": "2026-01-15T10:00:00"
+        },
+        {
+          "id": 2,
+          "username": "Emily R.",
+          "userAvatar": "http://localhost:3000/avatars/3.svg",
+          "date": "Dec 2025",
+          "rating": 5,
+          "comment": "Sara was an amazing host! Communicative and responsive. Her breakfast spread was wonderful and the place is in a quiet and peaceful area~",
+          "created": "2026-01-15T10:00:00",
+          "updated": "2026-01-15T10:00:00"
+        },
+        {
+          "id": 3,
+          "username": "Laura P.",
+          "userAvatar": "http://localhost:3000/avatars/4.svg",
+          "date": "Jan 2026",
+          "rating": 5,
+          "comment": "The scenery is beyond words! Sara provided wonderful recommendations for local hikes. Highly highly recommend!",
           "created": "2026-01-15T10:00:00",
           "updated": "2026-01-15T10:00:00"
         }
       ],
       "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2769.750579609265!2d11.459144275751118!3d46.03612509509841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477891d4a8346821%3A0x4a933835fbf1a408!2sLa%20Tana%20del%20Lupo!5e0!3m2!1sen!2sno!4v1773679738236!5m2!1sen!2sno",
 
-      "features": ["dobbeltseng", "eget bad", "frokost inkludert"],
       "created": "2025-09-02T09:00:00",
       "updated": "2025-09-12T16:45:00"
     }
@@ -61,6 +90,17 @@
       "roomId": 1,
       "fromDate": "2026-01-10",
       "toDate": "2026-01-12",
+      "status": "pending",
+      "message": "Ønsker rolig rom med tidlig innsjekk",
+      "created": "2025-12-30T12:15:00",
+      "updated": "2025-12-30T12:15:00"
+    },
+    {
+      "id": 102,
+      "userId": 2,
+      "roomId": 3,
+      "fromDate": "2026-05-23",
+      "toDate": "2026-06-01",
       "status": "pending",
       "message": "Ønsker rolig rom med tidlig innsjekk",
       "created": "2025-12-30T12:15:00",
