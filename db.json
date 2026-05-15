@@ -17,29 +17,8 @@
       "updated": "2025-09-10T14:20:00"
     }
   ],
-  "favourites": [
-    {
-      "userId": 1,
-      "roomId": 2,
-      "created": "2026-05-15T15:42:10.508Z",
-      "updated": "2026-05-15T15:42:10.508Z",
-      "id": 4
-    },
-    {
-      "userId": 1,
-      "roomId": 3,
-      "created": "2026-05-15T18:55:42.068Z",
-      "updated": "2026-05-15T18:55:42.068Z",
-      "id": 5
-    },
-    {
-      "userId": 1,
-      "roomId": 1,
-      "created": "2026-05-15T19:54:35.735Z",
-      "updated": "2026-05-15T19:54:35.735Z",
-      "id": 6
-    }
-  ],
+  "favourites": [],
+
   "rooms": [
     {
       "id": 1,
@@ -51,11 +30,7 @@
       "guests": 2,
       "pricePrNight": 1200,
       "description": "Family-run Bed & Breakfast, surrounded by nature but within walking distance of the town center. Eco-friendly, great for couples or friends, and perfect base for all outdoor sports and visits to the nearby Arte Sella or the lakes of Levico and Caldonazzo. Bicycle rental is available in the nearby village of Borgo Valsugana.",
-      "features": [
-        "dobbeltseng",
-        "eget bad",
-        "frokost inkludert"
-      ],
+      "features": ["dobbeltseng", "eget bad", "frokost inkludert"],
       "maxGuests": 2,
       "hostName": "Sara",
       "hostAvatar": "http://localhost:3000/avatars/1.svg",
@@ -124,11 +99,7 @@
       "guests": 4,
       "pricePrNight": 2966,
       "description": "Hidden between rice fields and tropical jungle, Oniria is a romantic luxury villa designed for couples seeking beauty, connection and calm. Enjoy a private heated infinity pool overlooking the valley, a sky bathtub under the stars, and a private home cinema that turns every night into a movie scene. Every detail blends nature, design and emotion, creating one of Bali's most unique stays for honeymooners and dreamers. This is where time slows down, and connection begins.",
-      "features": [
-        "dobbeltseng",
-        "eget bad",
-        "frokost inkludert"
-      ],
+      "features": ["dobbeltseng", "eget bad", "frokost inkludert"],
       "maxGuests": 2,
       "hostName": "Oniria",
       "hostAvatar": "http://localhost:3000/avatars/7.svg",
@@ -201,11 +172,7 @@
       "guests": 2,
       "pricePrNight": 1100,
       "description": "Enkelt og fredelig overnattingssted med sentral beliggenhet. Rett ved bussholdeplass og kort vei til park. Rolig bolig og strøk.",
-      "features": [
-        "dobbeltseng",
-        "eget bad",
-        "frokost inkludert"
-      ],
+      "features": ["dobbeltseng", "eget bad", "frokost inkludert"],
       "maxGuests": 2,
       "hostName": "Liv",
       "hostAvatar": "http://localhost:3000/avatars/9.svg",
